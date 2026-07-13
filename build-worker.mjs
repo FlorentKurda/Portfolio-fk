@@ -13,11 +13,13 @@ const files = [
   { route: "/styles.css", path: "styles.css", type: "text/css; charset=utf-8" },
   { route: "/script.js", path: "script.js", type: "text/javascript; charset=utf-8" },
   { route: "/assets/data/projects.json", path: "assets/data/projects.json", type: "application/json; charset=utf-8" },
+  { route: "/assets/img/logo-fk.png", path: "assets/img/logo-fk.png", type: "image/png" },
   { route: "/assets/img/logo-fk.svg", path: "assets/img/logo-fk.svg", type: "image/svg+xml" },
   { route: "/assets/img/project-cabinet-infirmier.png", path: "assets/img/project-cabinet-infirmier.png", type: "image/png" },
   { route: "/assets/img/project-domaine-viticole.png", path: "assets/img/project-domaine-viticole.png", type: "image/png" },
   { route: "/assets/img/project-photographe-nature.png", path: "assets/img/project-photographe-nature.png", type: "image/png" },
   { route: "/assets/img/project-restaurant-bistrot.png", path: "assets/img/project-restaurant-bistrot.png", type: "image/png" },
+  { route: "/assets/img/project-spa.png", path: "assets/img/project-spa.png", type: "image/png" },
 ];
 
 await rm(dist, { recursive: true, force: true });

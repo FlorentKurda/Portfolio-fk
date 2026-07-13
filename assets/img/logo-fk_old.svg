@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title">
-  <title id="title">Monogramme FK</title>
-  <rect width="96" height="96" rx="20" fill="#0d1117"/>
-  <rect x="7" y="7" width="82" height="82" rx="16" fill="none" stroke="#c86f43" stroke-width="2"/>
-  <path d="M27 68V28h26v8H37v9h14v8H37v15H27Z" fill="#f4eee4"/>
-  <path d="M55 68V28h10v17l14-17h12L74 47l18 21H79L65 51v17H55Z" fill="#f0a36f"/>
-</svg>
