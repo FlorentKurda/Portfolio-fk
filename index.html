@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio de FK Création Web, développeur web freelance spécialisé dans les sites vitrines modernes, rapides et responsives pour indépendants et petites entreprises."
+      content="Portfolio de Florent Kurda, développeur web freelance spécialisé dans les sites vitrines modernes, rapides et responsives pour indépendants et petites entreprises."
     />
-    <title>FK Création Web | Développeur web freelance</title>
+    <title>Florent Kurda | Développeur web freelance</title>
     <link rel="icon" href="assets/img/logo-fk.png" type="image/png" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <header class="site-header" data-header>
-      <a class="brand" href="#accueil" aria-label="Accueil FK Création Web">
+      <a class="brand" href="#accueil" aria-label="Accueil Florent Kurda">
         <img src="assets/img/logo-fk.png" alt="" width="42" height="42" />
-        <span>FK Création Web</span>
+        <span>Florent Kurda</span>
       </a>
 
       <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
@@ -37,50 +37,91 @@
 
     <main>
       <section class="hero section" id="accueil">
-        <div class="hero-rail" aria-hidden="true">
-          <span>DÉVELOPPEMENT WEB SUR-MESURE</span>
-          <strong>01</strong>
-        </div>
-
         <div class="hero-content reveal">
-          <h1>Des sites qui donnent <em>du relief</em> à votre activité.</h1>
+          <p class="eyebrow">DÉVELOPPEUR WEB FREELANCE</p>
+          <h1>Un site vitrine pensé pour marquer <em>les esprits.</em></h1>
           <p class="hero-lead">
-            Je conçois des sites vitrines modernes, rapides et pensés pour vos objectifs.
-            Pour indépendants, artisans et petites entreprises.
+            Je conçois des sites modernes, rapides et sur-mesure pour indépendants,
+            artisans et petites entreprises.
           </p>
           <div class="hero-actions" aria-label="Actions principales">
             <a class="btn btn-primary" href="#realisations">Voir mes réalisations</a>
             <a class="btn btn-secondary" href="mailto:kurda.florent@gmail.com">Me contacter</a>
           </div>
+
+          <div class="hero-stats" aria-label="Statistiques">
+            <article>
+              <span>15+</span>
+              <p>projets réalisés</p>
+            </article>
+            <article>
+              <span>98%</span>
+              <p>de satisfaction</p>
+            </article>
+            <article>
+              <span>&lt; 2s</span>
+              <p>temps de chargement</p>
+            </article>
+          </div>
         </div>
 
         <div class="hero-visual reveal">
-          <div class="hero-paper-card" aria-hidden="true">
-            <span>FK</span>
-          </div>
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
 
-          <aside class="hero-panel" aria-label="Compétences clés et projet récent">
-            <div class="panel-topline">Compétences</div>
-            <h2>Développement orienté résultat</h2>
-            <ul class="skill-list">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Responsive design</li>
-              <li>GitHub Pages</li>
-            </ul>
-
-            <div class="recent-project">
-              <div class="recent-copy">
-                <p class="panel-topline">Projet récent</p>
-                <h3>Atelier Lumeria</h3>
-                <p>Site vitrine épuré pour un atelier de céramique fait main.</p>
-                <a class="recent-link" href="#realisations">Voir le projet</a>
-              </div>
-              <div class="recent-visual" aria-hidden="true"></div>
-              <a class="recent-arrow" href="#realisations" aria-label="Voir le projet Atelier Lumeria">↗</a>
+          <article class="showcase-card main-preview" aria-label="Aperçu du projet Néréo">
+            <div class="preview-topbar">
+              <strong>NÉRÉO</strong>
+              <nav aria-label="Navigation fictive Néréo">
+                <span>Accueil</span>
+                <span>Collection</span>
+                <span>À propos</span>
+                <span>Contact</span>
+              </nav>
             </div>
-          </aside>
+            <div class="preview-scene" aria-hidden="true">
+              <span class="chair-shape"></span>
+              <span class="lamp-glow"></span>
+              <span class="table-shape"></span>
+            </div>
+            <div class="preview-copy">
+              <h2>NÉRÉO</h2>
+              <p>Design épuré. Matières nobles. L’essence du détail.</p>
+              <a href="#realisations">Découvrir</a>
+            </div>
+          </article>
+
+          <article class="showcase-card featured-card">
+            <p class="card-kicker">PROJET EN VEDETTE</p>
+            <h3>Néréo — Site vitrine</h3>
+            <p>Design minimaliste, animations fluides et expérience haut de gamme.</p>
+            <a href="#realisations">Voir le projet</a>
+          </article>
+
+          <article class="showcase-card performance-card">
+            <p class="card-kicker">PERFORMANCES</p>
+            <div class="performance-layout">
+              <div class="score-circle">
+                <strong>98</strong>
+                <span>Performance</span>
+              </div>
+              <ul>
+                <li><span>SEO</span><strong>100</strong></li>
+                <li><span>Accessibilité</span><strong>96</strong></li>
+                <li><span>Bonnes pratiques</span><strong>100</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="showcase-card testimonial-card">
+            <div class="avatar-row" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <p>Ils m’ont fait confiance et recommandent mon travail.</p>
+            <div class="stars" aria-label="Avis cinq étoiles">★★★★★</div>
+          </article>
         </div>
       </section>
 
@@ -232,7 +273,7 @@
     </main>
 
     <footer class="site-footer">
-      <span>© <span data-year></span> FK Création Web</span>
+      <span>© <span data-year></span> Florent Kurda</span>
       <a href="#accueil">Retour à l'accueil</a>
     </footer>
 
