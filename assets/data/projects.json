@@ -1,6 +1,15 @@
 {
   "_comment": "Pour ajouter un projet, dupliquez un objet dans le tableau projects. Gardez les memes cles: title, category, description, image, demoUrl, codeUrl, tags. Laissez codeUrl vide pour masquer le bouton Voir le code.",
   "projects": [
+      {
+      "title": "Application de rencontre professionnelle",
+      "category": "Rencontre professionnelle",
+      "description": "Humeet met en relation candidats et recruteurs grâce à des offres compatibles, un profil anonymisé avant le match et une messagerie ouverte uniquement après intérêt réciproque.",
+      "image": "assets/img/Humeet.png",
+      "demoUrl": "https://humeet.vercel.app/",
+      "codeUrl": "",
+      "tags": ["HTML", "CSS", "Responsive","JavaScript"]
+    },
     {
       "title": "Cabinet infirmier",
       "category": "Santé",
